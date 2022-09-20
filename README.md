@@ -16,10 +16,10 @@ As such, the project is simpler than it reuqired in production.
 
 
 ## 2. Design
-<img src="https://github.com/PanzerFlow/api-data-driven/blob/main/img/simple_api.png" width=110% height=110%>
+<img src="https://github.com/PanzerFlow/api-data-driven/blob/setup/img/simple_api.png" width=110% height=110%>
 
 ## 3. Output
-<img src="https://github.com/PanzerFlow/api-data-driven/blob/main/img/api_output.png" width=110% height=110%>
+<img src="https://github.com/PanzerFlow/api-data-driven/blob/setup/img/api_output.png" width=110% height=110%>
 
 ## 4. Setup
 Prerequisites
