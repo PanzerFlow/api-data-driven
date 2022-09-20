@@ -16,10 +16,10 @@ As such, the project is simpler than it reuqired in production.
 
 
 ## 2. Design
-
+<img src="https://github.com/PanzerFlow/api-data-driven/blob/main/img/simple_api.png" width=110% height=110%>
 
 ## 3. Output
-
+<img src="https://github.com/PanzerFlow/api-data-driven/blob/main/img/api_output.png" width=110% height=110%>
 
 ## 4. Setup
 Prerequisites
@@ -73,10 +73,9 @@ disown -h
 Testing API Calls (Replace the IP address to your own EC2's IP)
 # http://44.203.191.81:8081/
 # http://44.203.191.81:8081/tester2_sample
-# http://44.203.191.81:8081/tester2_year/1946-10
+# http://44.203.191.81:8081/tester2_year/1946-12
 
-You can use the below command to kill all flask processes
-
+You can use the below command to kill all flask processes as part of the troubleshooting process
 ```bash
 kill $(pgrep -f flask)
 ```
