@@ -57,4 +57,27 @@ Run the data import script using the activated python virtual environment
 python import_data.py
 ```
 
+Once the data is imported, run the flask start up script
+```bash
+flask run --host=0.0.0.0 --port=8081
+```
+
+Hit ctrl+z to pause the process and throw it to the backgroud
+
+Push the process the background and disown it
+```bash
+bg
+disown -h
+```
+
+Testing API Calls (Replace the IP address to your own EC2's IP)
+# http://44.203.191.81:8081/
+# http://44.203.191.81:8081/tester2_sample
+# http://44.203.191.81:8081/tester2_year/1946-10
+
+You can use the below command to kill all flask processes
+
+```bash
+kill $(pgrep -f flask)
+```
 
