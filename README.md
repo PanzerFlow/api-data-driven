@@ -37,6 +37,7 @@ Create python virtual environment used for this project
 python3 -m venv venv
 source venv/bin/activate
 pip install sqlalchemy pandas mysql-connector
+pip install flask pymysql
 ```
 
 Create the config file to store your MYSQL RDS secerts. 
@@ -55,3 +56,5 @@ Run the data import script using the activated python virtual environment
 ```bash
 python import_data.py
 ```
+
+
